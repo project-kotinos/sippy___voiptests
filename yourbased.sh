@@ -11,5 +11,5 @@ cat /etc/hosts
 echo "--- hosts patched ---"
 DEBIAN_FRONTEND=noninteractive apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get install gpp
-sh -x ./install_depends/opensips.sh
-sh -x ./test_run.sh
+bash -x ./install_depends/opensips.sh
+bash -x ./test_run.sh
